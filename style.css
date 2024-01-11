@@ -1,127 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-image{
-    width: 100%;
-    height: auto;
-    display: block;
+image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.main-section{
-    background-image: url("images/project.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 15px auto;
-
+.main-section {
+  background-image: url("images/project.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15px auto;
 }
-.container{
-    width: 90%;
-    margin: auto;
+.container {
+  width: 90%;
+  margin: auto;
 }
-.top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    width: 15%;
+.logo {
+  width: 15%;
 }
-.manu{
-    width: 75%;
+.manu {
+  width: 75%;
 }
-.manu ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
+.manu ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
-.manu ul li a{
-    color: #FFF;
-    display: block;
-    padding: 0px 20px;
-    text-decoration: none;
+.manu ul li a {
+  color: #fff;
+  display: block;
+  padding: 0px 20px;
+  text-decoration: none;
 }
-.manu ul li a::after{
-    content: '';
-    display: block;
-    width: 15px;
-    height: 2px;
-    background-color: transparent;
+.manu ul li a::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 2px;
+  background-color: transparent;
 }
-.manu ul li a:hover::after{
-    background-color: palevioletred;
+.manu ul li a:hover::after {
+  background-color: palevioletred;
 }
-.manu-icon{
-    display: none;
+.manu-icon {
+  display: none;
 }
-.manu-icon span{
-    color: #FFF;
-
+.manu-icon span {
+  color: #fff;
 }
 /* End to top section */
 
-.middle{
-    width: 45%;
-    padding: 100px 0;
+.middle {
+  width: 45%;
+  padding: 100px 0;
 }
-.middle h1{
-    font-size: 60px;
-    color: #FFF;
-    line-height: 1em;
-    margin-bottom: 45px;
-    position: relative;
+.middle h1 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 1em;
+  margin-bottom: 45px;
+  position: relative;
 }
-.middle h1::before{
-    content: '';
-    display: block;
-    width: 50px;
-    height: 2px;
-    background-color: #FFF;
-    position: absolute;
-    top: -20px;
-    left: 0;
-    background-color: rgb(221, 31, 95);
-
+.middle h1::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  background-color: rgb(221, 31, 95);
 }
-.middle a{
-    border: 1px solid rgb(221, 31, 95);
-    text-decoration: none;
-    color: #FFF;
-    padding: 10px 30px;
-    transition: .4s;
+.middle a {
+  border: 1px solid rgb(221, 31, 95);
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  transition: 0.4s;
 }
-.middle a:hover{
-    background-color:rgb(221, 31, 95) ;
-    border-radius: 5px;
+.middle a:hover {
+  background-color: rgb(221, 31, 95);
+  border-radius: 5px;
 }
 /* End of middle */
 
-.bottom{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.item{
-    color: #FFF;
-    background-color: gray;
-    width: 32%;
-    padding: 50px 20px;
-    box-sizing: border-box;
+.item {
+  color: #fff;
+  background-color: gray;
+  width: 32%;
+  padding: 50px 20px;
+  box-sizing: border-box;
 }
 
-.item span{
-    color: #FFF;
+.item span {
+  color: #fff;
 }
-.item h5{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
+.item h5 {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
-.item h5::after{
-    content: '';
-    display: block;
-    width: 40px;
-    height: 2px;
-    background-color: #FFF;
+.item h5::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+}
+.item-1 {
+  background-color: #d83953;
+  position: relative;
+}
+.item-2::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
 }
