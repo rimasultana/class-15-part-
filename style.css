@@ -22,6 +22,7 @@ image{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px auto;
 }
 .logo{
     width: 15%;
@@ -44,6 +45,9 @@ image{
     content: '';
     display: block;
     width: 15px;
-    height: 15px;
-    background-color: red;
+    height: 2px;
+    background-color: transparent;
+}
+.manu ul li a:hover::after{
+    background-color: palevioletred;
 }
