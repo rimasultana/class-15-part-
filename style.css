@@ -85,8 +85,18 @@ image{
 }
 /* End of middle */
 
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .item{
     color: #FFF;
+    background-color: gray;
+    width: 32%;
+    padding: 50px 20px;
+    box-sizing: border-box;
 }
 
 .item span{
