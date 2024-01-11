@@ -83,3 +83,12 @@ image{
     background-color:rgb(221, 31, 95) ;
     border-radius: 5px;
 }
+/* End of middle */
+
+.item{
+    color: #FFF;
+}
+
+.item span{
+    color: #FFF;
+}
