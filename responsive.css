@@ -11,10 +11,16 @@
     border: 1px solid #fff;
     padding: 5px 10px;
   }
+  .middle{
+    width: 65%;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 575px) {
     .logo{
         width: 20%;
     }
+.middle{
+    width: 85%;
+}
 }
