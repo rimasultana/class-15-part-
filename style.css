@@ -147,6 +147,16 @@ image {
 .item-3{
     position: relative;
 }
+.item-3::before{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 55px ;
+    background-color: #d83953;;
+    position: absolute;
+    left: 100%;
+    bottom: -15px;
+}
 .item-3::after{
     content: "";
     display: block;
