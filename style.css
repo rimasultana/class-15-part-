@@ -102,3 +102,15 @@ image{
 .item span{
     color: #FFF;
 }
+.item h5{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.item h5::after{
+    content: '';
+    display: block;
+    width: 54px;
+    height: 2px;
+    background-color: #FFF;
+}
