@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-section{
+    background-image: url("images/project.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
