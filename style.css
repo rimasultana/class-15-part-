@@ -40,3 +40,10 @@ image{
     padding: 0px 20px;
     text-decoration: none;
 }
+.manu ul li a::after{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
