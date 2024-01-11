@@ -12,6 +12,8 @@ image{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 15px auto;
+
 }
 .container{
     width: 90%;
@@ -21,7 +23,6 @@ image{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px auto;
 }
 .logo{
     width: 15%;
@@ -55,5 +56,25 @@ image{
 }
 .manu-icon span{
     color: #FFF;
+
+}
+/* End to top section */
+
+.middle{
+    width: 45%;
+}
+.middle h1{
+    font-size: 50px;
+    color: #FFF;
+    line-height: 1em;
+    margin-bottom: 25px;
+
+    
+}
+.middle a{
+    border: 1px solid palevioletred;
+    text-decoration: none;
+    color: #FFF;
+
 
 }
