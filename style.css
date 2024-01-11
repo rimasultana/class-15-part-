@@ -62,19 +62,24 @@ image{
 
 .middle{
     width: 45%;
+    padding: 100px 0;
 }
 .middle h1{
-    font-size: 50px;
+    font-size: 60px;
     color: #FFF;
     line-height: 1em;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 
     
 }
 .middle a{
-    border: 1px solid palevioletred;
+    border: 1px solid rgb(221, 31, 95);
     text-decoration: none;
     color: #FFF;
-
-
+    padding: 10px 30px;
+    transition: .4s;
+}
+.middle a:hover{
+    background-color:rgb(221, 31, 95) ;
+    border-radius: 5px;
 }
