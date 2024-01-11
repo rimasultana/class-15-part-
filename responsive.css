@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+    .manu{
+        display: none;
+    }
+    .manu-icon{
+        display: flex;
+        width: 75%;
+        justify-content: flex-end;
+    }
+    .manu-icon span{
+        border: 1px solid #fff;
+        padding: 5px 10px;
+    }
+}
